@@ -1,23 +1,49 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
+
+
+
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th colSpan="2">Weekly Solo Que Tracker<button>Update</button></th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Players</td>
+            <td>Games played</td>
+          </tr>
+          <tr>
+            <td><a href="https://na.op.gg/summoners/na/Z%C3%B6g">Zög</a></td>
+            <td>Data</td>
+          </tr>
+          <tr>
+            <td><a href="https://na.op.gg/summoners/na/maik">Maik</a></td>
+            <td>Data</td>
+          </tr>
+          <tr>
+            <td><a href="https://na.op.gg/summoners/na/SkillFulChampion">SkillFulChampion</a></td>
+            <td>Data</td>
+          </tr>
+          <tr>
+            <td><a href="https://na.op.gg/summoners/na/Hi%20Im%20AkaliHui">Hi Im AkaliHui</a></td>
+            <td>Data</td>
+          </tr>
+          <tr>
+            <td><a href="https://na.op.gg/summoners/na/Noroware">Noroware</a></td>
+            <td>Data</td>
+          </tr>
+          <tr>
+            <td><a href="https://na.op.gg/summoners/na/Zyzzyx">Zyzzyx</a></td>
+            <td>Data</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 }
